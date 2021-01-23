@@ -1294,7 +1294,7 @@
 //#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
 // Force the use of the probe for Z-axis homing
-//#define USE_PROBE_FOR_Z_HOMING
+#define USE_PROBE_FOR_Z_HOMING
 
 /**
  * Z_MIN_PROBE_PIN
@@ -2110,8 +2110,8 @@
 //#define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
-  #define Z_SAFE_HOMING_X_POINT (X_MAX_POS - 55)   // X point for Z homing
-  #define Z_SAFE_HOMING_Y_POINT (Y_MAX_POS - 0)    // Y point for Z homing
+  #define Z_SAFE_HOMING_X_POINT (X_MAX_POS - 60)   // X point for Z homing
+  #define Z_SAFE_HOMING_Y_POINT (Y_MAX_POS - 10)    // Y point for Z homing
 #endif
 
 // Homing speeds (linear=mm/min, rotational=°/min)
