@@ -1,0 +1,8 @@
+// Config
+#define FILAMENT_RUNOUT_SENSOR
+#define NEOPIXEL_LED
+
+// ConfigAdv
+#define LED_CONTROL_MENU
+#define E0_CURRENT
+#define FILAMENT_CHANGE_FAST_LOAD_ACCEL
